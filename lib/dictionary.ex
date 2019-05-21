@@ -18,7 +18,7 @@ defmodule Dictionary do
   end
 
   def word_list() do
-    contents = File.read! "assets/words.txt"
-    list = String.split contents, ~r/\n/
+    contents = File.read!("assets/words.txt")
+    list = String.split(contents, ~r/\n/)
   end
 end
